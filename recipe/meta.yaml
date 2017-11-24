@@ -21,10 +21,10 @@ requirements:
     - cython
     - setuptools
     - python
-    - numpy x.x
+    - numpy 1.11.*
   run:
     - python
-    - numpy x.x
+    - numpy >=1.11
 
 test:
   requires:
