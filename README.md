@@ -14,14 +14,16 @@ Summary: High performance approximate and streaming algorithms.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/crick-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/crick-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/crick-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/crick-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/crick-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/crick-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/crick-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/crick-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/crick-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/crick-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/crick-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/crick-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/crick/badges/version.svg)](https://anaconda.org/conda-forge/crick)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/crick/badges/downloads.svg)](https://anaconda.org/conda-forge/crick)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-crick-green.svg)](https://anaconda.org/conda-forge/crick) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/crick.svg)](https://anaconda.org/conda-forge/crick) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/crick.svg)](https://anaconda.org/conda-forge/crick) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/crick.svg)](https://anaconda.org/conda-forge/crick) |
 
 Installing crick
 ================
