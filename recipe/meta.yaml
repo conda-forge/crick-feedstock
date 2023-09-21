@@ -1,6 +1,6 @@
 {% set name = "crick" %}
-{% set version = "0.0.3" %}
-{% set md5 = "5e33357a3fd2c02ddbafac77e2b25d35" %}
+{% set version = "0.0.4" %}
+{% set md5 = "ac484dd286c5ac27508c8b909e9d8f51" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   md5: {{ md5 }}
 
 build:
-  number: 1003
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
