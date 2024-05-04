@@ -1,6 +1,6 @@
 {% set name = "crick" %}
-{% set version = "0.0.5" %}
-{% set md5 = "3685332c83499f0120280db77ddf7ccf" %}
+{% set version = "0.0.6" %}
+{% set md5 = "34dba4ae88161c79032a61e3ce051513" %}
 
 package:
   name: {{ name|lower }}
@@ -21,6 +21,7 @@ requirements:
     - cython                                 # [build_platform != target_platform]
     - numpy                                  # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - cython
     - setuptools
