@@ -1,6 +1,6 @@
 {% set name = "crick" %}
-{% set version = "0.0.5" %}
-{% set md5 = "3685332c83499f0120280db77ddf7ccf" %}
+{% set version = "0.0.5.post0" %}
+{% set md5 = "86960344e6e3e1bd69a74bfb4a46fbf2" %}
 
 package:
   name: {{ name|lower }}
