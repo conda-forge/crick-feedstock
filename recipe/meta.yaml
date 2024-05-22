@@ -11,7 +11,7 @@ source:
   md5: {{ md5 }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -21,6 +21,7 @@ requirements:
     - cython                                 # [build_platform != target_platform]
     - numpy                                  # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - cython
     - setuptools
@@ -28,7 +29,6 @@ requirements:
     - numpy
   run:
     - python
-    - {{ pin_compatible('numpy') }}
 
 test:
   requires:
