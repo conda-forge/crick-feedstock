@@ -1,0 +1,12 @@
+diff -ruN crick-0.0.5.orig/versioneer.py crick-0.0.5/versioneer.py
+--- crick-0.0.5.orig/versioneer.py	2023-12-18 11:29:55.000000000 +0100
++++ crick-0.0.5/versioneer.py	2024-05-30 18:08:03.639347564 +0200
+@@ -339,7 +339,7 @@
+     # configparser.NoOptionError (if it lacks "VCS="). See the docstring at
+     # the top of versioneer.py for instructions on writing your setup.cfg .
+     setup_cfg = os.path.join(root, "setup.cfg")
+-    parser = configparser.SafeConfigParser()
++    parser = configparser.ConfigParser()
+     with open(setup_cfg, "r") as f:
+         parser.readfp(f)
+     VCS = parser.get("versioneer", "VCS")  # mandatory

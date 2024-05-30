@@ -1,6 +1,5 @@
 {% set name = "crick" %}
 {% set version = "0.0.5" %}
-{% set md5 = "3685332c83499f0120280db77ddf7ccf" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +7,9 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  md5: {{ md5 }}
+  sha256: e1e85d30aa60fbdf1a197bff553158a3d4b6d10e1c1b1ba556d2ffd6f3ec5a74
+  patches:
+    - python-3.patch
 
 build:
   number: 1
