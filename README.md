@@ -297,4 +297,5 @@ Feedstock Maintainers
 
 * [@jcrist](https://github.com/jcrist/)
 * [@jrbourbeau](https://github.com/jrbourbeau/)
+* [@zklaus](https://github.com/zklaus/)
 
