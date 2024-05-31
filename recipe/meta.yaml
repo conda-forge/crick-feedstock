@@ -26,6 +26,7 @@ requirements:
   host:
     - cython
     - setuptools
+    - versioneer
     - python
     - pip
     - numpy
