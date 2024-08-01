@@ -39,7 +39,8 @@ test:
   imports:
     - crick
   commands:
-    - py.test -v --pyargs crick
+    - py.test -v --pyargs crick                                                                          # [python_impl != 'pypy']
+    - py.test -v -k 'not test_object_reference_counting and not test_object_hash_errors' --pyargs crick  # [python_impl == 'pypy']
 
 about:
   home: https://github.com/jcrist/crick
