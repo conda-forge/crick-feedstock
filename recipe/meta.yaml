@@ -30,6 +30,7 @@ requirements:
     - numpy
   run:
     - python
+    - numpy
 
 test:
   requires:
