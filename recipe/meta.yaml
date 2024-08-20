@@ -1,5 +1,5 @@
 {% set name = "crick" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 851bc0802cd4dfb17f8fe99934b224dc355c84de0174ea5d9723b25c7feeb516
+  sha256: bba66d43f64091279a0f7bbab1d49c0b2a7a991eae1ad3f578dcdc2b67fd7a93
 
 build:
-  skip: true  # [py<39]
+  skip: true  # [py<310]
   number: 0
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
